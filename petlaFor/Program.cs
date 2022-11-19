@@ -21,9 +21,10 @@ namespace petlaWhile
                 a = a + l; 
                 i ++;
             } 
-
-            Console.WriteLine("Doliczyłeś do 100. " + "Dodałeś "+ i + " liczb");
+            
+            Console.WriteLine("Doliczyłeś do  {0}. Dodałeś {1} liczb.", a, i);
             Console.ReadKey();
+            
         }
             
         
