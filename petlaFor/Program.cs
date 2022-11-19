@@ -10,19 +10,17 @@ namespace petlaWhile
     {
         static void Main(string[] args)
         {
-
-            int a = 0;
+                        
             int i = 0;
             int l = 0;
-            while (a < 100)
+            while (l < 100)
             {
                 Console.WriteLine("Wpisz liczbę");
-                l = System.Convert.ToInt16(Console.ReadLine());
-                a = a + l; 
+                l += System.Convert.ToInt16(Console.ReadLine());
                 i ++;
             } 
             
-            Console.WriteLine("Doliczyłeś do  {0}. Dodałeś {1} liczb.", a, i);
+            Console.WriteLine("Doliczyłeś do  {0}. Dodałeś {1} liczb.", l, i);
             Console.ReadKey();
             
         }
